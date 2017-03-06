@@ -37,8 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # third_party_apps
+    'crispy_forms',
+    'bootstrap3',
+    'markitup',
+    'autoslug',
     # My apps
     'indaba.core',
+    'indaba.talks',
+    'indaba.accounts',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -74,7 +81,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'indaba.wsgi.application'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
+MARKITUP_FILTER = ('markdown.markdown', {'safe_mode': True})
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 

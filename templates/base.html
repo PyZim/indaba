@@ -64,6 +64,7 @@
                 <li><a title="coc" href="#coc">CoC</a></li>
 	       	<li><a title="about" href="#about">About</a></li>
 
+
               </ul>
             </nav>
           </div>
@@ -76,7 +77,10 @@
     <!-- /.navbar-wrapper -->
     <div id="top"></div>
     <!-- ******************** HeaderWrap ********************-->
-    <div id="headerwrap">
+   {% block headline %}<h1>Login</h1>{% endblock%}
+    {% block content %}
+
+     <div id="headerwrap">
       <header class="clearfix">
         <h1><span>PyconZim!</span> The conference for the python programming community.</h1>
         <div class="container">
@@ -99,8 +103,8 @@
           </div>
         </div>
       </header>
-    </div>
-    {% block content %}
+    </div>    
+
     <!--******************** Feature ********************-->
     <div class="scrollblock">
       <section id="feature">
