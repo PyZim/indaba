@@ -66,7 +66,7 @@ TEMPLATE_DIRS = ()
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['templates',BASE_DIR+'/indaba/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
