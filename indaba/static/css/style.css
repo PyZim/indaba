@@ -260,7 +260,7 @@ ul#menu-main > li > a:hover {
 	-o-background-size: cover;
 	background-size: cover;
 	;
-	min-height: 600px;
+	min-height: 900px;
 	margin-top: -60px;
 	padding-top:160px;
 	text-align:center;
@@ -268,7 +268,7 @@ ul#menu-main > li > a:hover {
 #headerwrap h1 {
 	color: #FFFFFF;
 	font-family: 'Patua One', cursive;
-	font-size: 4em;
+	font-size: 2.3em;
 	font-weight: 400;
 	margin: 1em 0;
 }
@@ -544,49 +544,49 @@ article .inside {
 }
 /* Team and Contact */
 
-section#team, section#contact {
+section#talks, section#contact {
 	color: #e4e5e2;
 	background:#312A1E;
 }
-section#team .align, section#contact .align {
+section#talks .align, section#contact .align {
 	font-size: 6em;
 	text-align: center;
 }
-#team h1, #contact h1 {
+#talks h1, #contact h1 {
 	font-size: 3em;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
 }
-#contact, #team {
+#contact, #talks {
 	padding-top: 4.75em;
 }
-#team {
+#talks {
 	padding-bottom: 0;
 }
 #contact {
 	padding-bottom: 0;
 }
-/* team */
+/* talks */
 
-#team h3 {
+#talks h3 {
 	font-size: 26px;
 	margin-top: 24px;
 	margin-bottom: 0px;
 }
-#team h3, .job-position {
+#talks h3, .job-position {
 	text-align: center;
 }
-#team .featurette {
+#talks .featurette {
 	text-align: center;
 	font-size: 21px;
 }
-#team h2.featurette-heading {
+#talks h2.featurette-heading {
 	margin-bottom: 24px;
 }
-.teamalign {
+.talksalign {
 	text-align:center
 }
-.team-thumb {
+.talks-thumb {
 	margin-top: 26px;
 	text-align:center;
 }
@@ -920,7 +920,7 @@ footer p {
  .container {
 1px solid yellow;
 }
- #team .team-thumb {
+ #talks .team-thumb {
  margin-right: auto;
  margin-left: auto;
  width: 150px;
@@ -1011,9 +1011,9 @@ footer p {
 		section#testimonials { /*display: none;*/
 }
 	
-		/* team */
+		/* talks */
 		
-		#team .team-thumb {
+		#talks .team-thumb {
  margin-right: auto;
  margin-left: auto;
  width: 150px;
