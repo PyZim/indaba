@@ -27,7 +27,7 @@ setup(
     author="Humphrey Butau",
     author_email='hbutau35@gmail.com',
     url='https://gitlab.com/hbutau/indaba',
-    packages=['indaba'],
+    packages=find_packages(),
     
     entry_points={
         'console_scripts': [
