@@ -4,10 +4,13 @@ from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, ButtonHolder, Submit
 
 class RegistrationForm(UserCreationForm):
+
     def __init__(self, *args, **kwargs):
         super(RegistrationForm, self).__init__(*args, **kwargs)
 
         self.helper = FormHelper()
+        self.helper.field_class = 'col-xs-8'
+        self.helper.label_class = 'col-xs-4'
         self.helper.layout = Layout(
             'username',
             'password1',
@@ -28,5 +31,3 @@ class LoginForm(AuthenticationForm):
             ButtonHolder(
                 Submit('login', 'Login', css_class='btn-primary'))
         )
-
-
