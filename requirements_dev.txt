@@ -9,3 +9,14 @@ Sphinx==1.4.8
 cryptography==1.7
 PyYAML==3.11
 pytest==2.9.2
+dj-database-url==0.4.2
+Django==1.10.3
+django-autoslug==1.9.3
+django-bootstrap3==7.1.0
+django-crispy-forms==1.6.1
+django-markitup==3.0.0
+gunicorn==19.7.0
+Markdown==2.6.7
+Pillow==3.3.0
+psycopg2==2.7.1
+whitenoise==3.3.0
