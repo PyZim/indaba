@@ -260,7 +260,7 @@ ul#menu-main > li > a:hover {
 	-o-background-size: cover;
 	background-size: cover;
 	;
-	min-height: 900px;
+	min-height: 800px;
 	margin-top: -60px;
 	padding-top:160px;
 	text-align:center;
@@ -268,14 +268,14 @@ ul#menu-main > li > a:hover {
 #headerwrap h1 {
 	color: #FFFFFF;
 	font-family: 'Patua One', cursive;
-	font-size: 2.3em;
+	font-size: 2.4em;
 	font-weight: 400;
 	margin: 1em 0;
 }
 #headerwrap h2 {
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans serif;
-	font-size: 2em;
+	font-size: 2.5em;
 	font-weight: normal;
 	margin: 0.5em 0;
 	text-shadow: 1px 1px 1px #333333;
@@ -595,6 +595,60 @@ section#talks .align, section#contact .align {
 	margin-bottom: .46155em;
 }
 /* Contact Form */
+
+
+/* Aboutand Contact */
+
+section#about, section#contact {
+	color: #e4e5e2;
+	background:#312A1E;
+}
+section#about .align, section#contact .align {
+	font-size: 6em;
+	text-align: center;
+}
+#about h1, #contact h1 {
+	font-size: 3em;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+#contact, #about {
+	padding-top: 4.75em;
+}
+#about {
+	padding-bottom: 0;
+}
+#contact {
+	padding-bottom: 0;
+}
+/* talks */
+
+#talks h3 {
+	font-size: 26px;
+	margin-top: 24px;
+	margin-bottom: 0px;
+}
+#talks h3, .job-position {
+	text-align: center;
+}
+#talks .featurette {
+	text-align: center;
+	font-size: 21px;
+}
+#talks h2.featurette-heading {
+	margin-bottom: 24px;
+}
+.talksalign {
+	text-align:center
+}
+.talks-thumb {
+	margin-top: 26px;
+	text-align:center;
+}
+.job-position {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: .46155em;
+}
 
 #theme-form {
 	position: relative;
