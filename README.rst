@@ -19,7 +19,7 @@ indaba
 
 
 simple conference management system
-. highlight:: shell
+highlight:: shell
 
 ============
 Contributing
