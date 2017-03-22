@@ -18,8 +18,8 @@ indaba
      :alt: Updates
 
 
-simple conference management system
-highlight:: shell
+simple conference management system for Pycon Zimbabwe 2017.
+
 
 ============
 Contributing
