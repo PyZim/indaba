@@ -6,15 +6,15 @@ indaba
 .. image:: https://img.shields.io/pypi/v/indaba.svg
         :target: https://pypi.python.org/pypi/indaba
 
-.. image:: https://img.shields.io/travis/hbutau/indaba.svg
-        :target: https://travis-ci.org/hbutau/indaba
+.. image:: https://img.shields.io/travis/PyZim/indaba.svg
+        :target: https://travis-ci.org/PyZim/indaba
 
 .. image:: https://readthedocs.org/projects/indaba/badge/?version=latest
         :target: https://indaba.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/hbutau/indaba/shield.svg
-     :target: https://pyup.io/repos/github/hbutau/indaba/
+.. image:: https://pyup.io/repos/github/PyZim/indaba/shield.svg
+     :target: https://pyup.io/repos/github/PyZim/indaba/
      :alt: Updates
 
 
@@ -36,7 +36,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/hbutau/indaba/issues.
+Report bugs at https://github.com/PyZim/indaba/issues.
 
 If you are reporting a bug, please include:
 
@@ -66,7 +66,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/hbutau/indaba/issues.
+The best way to send feedback is to file an issue at https://github.com/PyZim/indaba/issues.
 
 If you are proposing a feature:
 
@@ -123,7 +123,7 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.6, 2.7, 3.3, 3.4 and 3.5, and for PyPy. Check
-   https://travis-ci.org/hbutau/indaba/pull_requests
+   https://travis-ci.org/PyZim/indaba/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
 Tips
