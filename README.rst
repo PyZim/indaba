@@ -85,7 +85,22 @@ Ready to contribute? Here's how to set up `indaba` for local development.
 
     $ git clone git@github.com:your_name_here/indaba.git
 
-3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
+3. Install your local copy into a virtualenv.
+
+Set up a Virtual Environment
+Built-in venv
+
+Create your virtual environment:
+
+python3 -m venv venv
+
+And enable it:
+
+. venv/bin/activate
+
+
+
+Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
     $ mkvirtualenv indaba
     $ cd indaba/
