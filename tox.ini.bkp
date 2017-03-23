@@ -4,6 +4,7 @@ envlist =  py35
 [testenv:flake8]
 basepython=python
 
+
 [testenv]
 setenv =
     PYTHONPATH = {toxinidir}:{toxinidir}/indaba
