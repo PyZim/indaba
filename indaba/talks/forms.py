@@ -13,10 +13,8 @@ from markitup.widgets  import MarkItUpWidget
 class ProposalForm(forms.ModelForm):
     class Meta:
         model = Proposal
-        fields = ('title', 'talk_type', 'abstract')
-        widgets = {
-            'abstract': MarkItUpWidget(),
-          }
+        fields = ('title', 'talk_type', 'description', 'abstract', 'additional_notes',)
+
 
 
     def __init__(self, *args, **kwargs):

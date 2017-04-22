@@ -1,11 +1,19 @@
 {% extends 'base.html' %}
+{% load static from staticfiles %}
+    {% block static %}    <link href= {% static "talks/css/style.css" %} rel="stylesheet"> {% endblock %}
+
 {% load i18n %}
 {% load crispy_forms_tags %}
 
 
 {% block content %}
-
-
-
+    <section id="contact" class="single-page scrollblock">
+                <div class="cform" id="theme-form">
+           <div class="container">
+        <h1>Submit your talk for PyconZim</h1>
+{% csrf_token %}
 {% crispy form %}
+</div>
+      <!-- /.container -->
+    </section>
 {% endblock %}
