@@ -19,7 +19,7 @@ class CreateTalk(LoginRequiredMixin, CreateView):
 
     def get_permission_denied_message(self):
         return self.permission_denied_message
-    
+
     def get_form_kwargs(self):
         kwargs = super(CreateTalk, self).get_form_kwargs()
         return kwargs
@@ -27,18 +27,18 @@ class CreateTalk(LoginRequiredMixin, CreateView):
     def get_contex_data(self, **kwargs):
         context = super(CreateTalk, self).get_context_data(**kwargs)
         return context
-    
+
     def get_form_valid_message(self):
         msg = ugettext('Talk proposal <strong>{title}</strong> created.')
         return format_html(msg, title=self.object.title)
-    
+
 
     def form_valid(self, form):
 
         self.object = form.save(commit=False)
         self.object.author = self.request.user
         self.object.save()
-        
+
         # Save the author information as well (many-to-many fun)
         form.save_m2m()
         return HttpResponseRedirect(self.get_success_url())
@@ -56,7 +56,7 @@ class TalkView(DetailView):
         return context
 
 
-class TalkList(ListView):
+class TalkListView(ListView):
     model = Proposal
     template_name = "talks/talk_list.html"
-    
+
