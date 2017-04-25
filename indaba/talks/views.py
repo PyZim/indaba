@@ -57,6 +57,7 @@ class TalkView(DetailView):
 
 
 class TalkListView(ListView):
+    template_name = "talks/proposal_list.html"
     model = Proposal
-    template_name = "talks/talk_list.html"
+    context_object_name = 'talks'
 

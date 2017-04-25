@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="team" class="single-page scrollback">
+<section id="team" class="single-page scrollback">
+{% for talk in talks %}
+
+
+    <li><a href="{% url 'talks:indaba_talk' pk=talk.pk %}">{{ talk.title }}</a></li>
+    {% empty %}
+    <li>No talks yet!</li>
+
+    {% endfor %}
+{% endblock %}

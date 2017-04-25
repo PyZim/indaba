@@ -52,4 +52,4 @@ class Proposal(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse("home")
+        return reverse('indaba_talk', args=(self.proposal_id,))
